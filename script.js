@@ -12,6 +12,7 @@ cekIpButton.addEventListener('click', () => {
                 <p>Region: ${data.region}</p>
                 <p>Country: ${data.country}</p>
                 <p>Timezone: ${data.timezone}</p>
+                <p>Koordinat: ${data.latitude}, ${data.longtitude}</p>
             `;
 
             // Menampilkan waktu real-time berdasarkan zona waktu
