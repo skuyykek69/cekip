@@ -22,7 +22,7 @@ cekIpButton.addEventListener('click', () => {
                 })
                 .catch(error => {
                     console.error('Error fetching time:', error);
-                    hasilDiv.textContent += '<p>Gagal mengambil waktu.</p>';
+                    hasilDiv.textContent += 'Gagal mengambil waktu: ${error.message}';
                 });
         })
         .catch(error => {
